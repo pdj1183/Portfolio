@@ -274,14 +274,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-image: linear-gradient(210deg, #97dcd5, #2b625d, #0b1a72, #17083f);
   background-size: 600%;
   background-position: top right;
-  animation: banner-animation 100s infinite alternate;
+  /*animation: banner-animation 100s infinite alternate;*/
 }
 
 @keyframes banner-animation {
   0% {
     background-position: top right;
   }
-
   25% {
     background-position: bottom left;
   }
@@ -294,6 +293,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   100% {
     background-position: top right;
   }
+}
+.banner b{
+  font-weight: 500;
 }
 .banner h1 {
   font-size: 60px;
