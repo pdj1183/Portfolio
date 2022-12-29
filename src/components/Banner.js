@@ -1,7 +1,7 @@
 import {useState, useEffect} from "react";
 import {Container, Col, Row} from "react-bootstrap";
 import {ArrowRightCircle} from "react-bootstrap-icons";
-import signature from "../assets/img/Signature.svg"
+
 
 export const Banner = () =>{
     const [loopNum, setLoopNum] = useState(0);
@@ -45,13 +45,15 @@ export const Banner = () =>{
             <Container>
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
-                        <span className="tagline">Welcome to my Portfolio</span>
-                        <h1>{'Hi I\'m Phillip Johnson '}<span className="wrap"> {text} </span></h1>
-                        <p>alsdflasdhufhasldhfjahsdhf;kasd;klfj;kasd;kfh   dsa;kfha.s dkhjfasd;f ;a;kj;l df;la sd;lhf; ;h;sdjhflkjahsdljfh lkashd fkjhasldkhfl akjsdlfjlkajhsdl fkhasldkfh</p>
+                        <h1>{'Hi I\'m Phillip Johnson'}</h1>
+                        <h2 ><span className="wrap align-content-center"> {text} </span></h2>
+                        <p>{'\n'}alsdflasdhufhasldhfjahsdhf;kasd;klfj;kasd;kfh   dsa;kfha.s dkhjfasd;f ;a;kj;l df;la sd;lhf; ;h;sdjhflkjahsdljfh lkashd fkjhasldkhfl akjsdlfjlkajhsdl fkhasldkfh</p>
                         <button onClick={() => console.log('connect')}> Let's Connect <ArrowRightCircle size={25}/> </button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
-                        <img src={signature} alt="Header Img"/>
+                        <h3 className='text-center'>
+                            Welcome to my Portfolio
+                        </h3>
                     </Col>
 
                 </Row>
