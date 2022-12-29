@@ -9,14 +9,14 @@ import navIcon2 from '../assets/img/nav-icon2.svg'
 import navIcon3 from '../assets/img/nav-icon3.svg'
 
 export  const Navigation = () =>{
-    const {activeLink, setActiveLink} = useState('home');
-    const {scrolled, setScrolled} = useState(false)
+    const [activeLink, setActiveLink] = useState('home');
+    const [scrolled, setScrolled] = useState(false);
 
     useEffect(() => {
-        const onScroll = () =>{
-            if (window.scrollY > 50){
+        const onScroll = () => {
+            if (window.scrollY > 50) {
                 setScrolled(true);
-            } else  {
+            } else {
                 setScrolled(false);
             }
         }
@@ -31,7 +31,7 @@ export  const Navigation = () =>{
     }
 
     return (
-        <Navbar expand="lg" className={scrolled ? 'scrolled': ''}>
+        <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
             <Container>
                 <Navbar.Brand href="#home">
                     <img src={logo} class="img-fluid" alt="Logo" />
