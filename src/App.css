@@ -41,7 +41,7 @@
 @font-face {
   font-family: Signature
 ;
-  src: url('./assets/font/allison-tessa.oblique.ttf');
+  src: url('./assets/font/TheQueenthineDemo.ttf');
   font-weight: 400;
 }
 @font-face {
@@ -67,7 +67,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #d9d5ce !important;
+  background-color: #FFFFFF !important;
   font-family: 'Isoveka', sans-serif !important;
 }
 
@@ -116,9 +116,66 @@ p.success {
 p.danger {
   color: red;
 }
+/************ CoverScreen Css ************/
+.coverScreen {
+  height: 100vh;
+}
+.coverScreen .center-image{
+  width:30vw;
+  position:absolute;
+}
+.coverScreen img{
+  margin-top: 50vh;
+  margin-left: 50vw;
+  transform:translate(-50%,-50%);
+  z-index: 1;
+  position: absolute;
+}
+.coverScreen .arrow{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform:translate(0, 20vh);
+  z-index: 2;
+}
+.coverScreen span{
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-bottom: 5px solid #FFFFFF;
+  border-right: 5px solid #FFFFFF;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: scroll 2s infinite;
+}
+.coverScreen span:nth-child(2){
+  animation-delay: -.2s;
+}
+.coverScreen span:nth-child(3){
+   animation-delay: -.4s;
+ }
+
+@keyframes scroll {
+  0%{
+    opacity: 0;
+    transform: rotate(45deg) translate(-20px, -20px);
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+    transform: rotate(45deg) translate(20px, 20px);
+  }
+}
+.coverScreen .blob{
+  margin-top: -55px;
+}
+
+
 /************ Navbar Css ************/
 nav.navbar {
-  position: fixed;
+  position: sticky;
   width: 100%;
   color: #fff !important;
   top: 0;
@@ -126,14 +183,14 @@ nav.navbar {
   transition:  0.32s ease-in-out;
 }
 nav.navbar.scrolled {
-  background-color: #121212;
+  color: #121212 !important;
+  background-color: #FFFFFF;
 }
 nav.navbar a.navbar-brand {
-  width: 25%;
+  width: 1%;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
-  color: #fff !important;
   letter-spacing: 0.8px;
   padding: 0 25px;
   font-size: 18px;
@@ -154,14 +211,14 @@ span.navbar-text {
 .social-icon a {
   width: 42px;
   height: 42px;
-  background: rgba(217, 217, 217, 0.1);
+  background: rgba(0, 0, 0, 0.9);
   display: inline-flex;
   border-radius: 50%;
   margin-right: 6px;
   align-items: center;
   justify-content: center;
   line-height: 1;
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(77, 75, 75, 0.5);
 }
 .social-icon a::before {
   content: "";
@@ -186,8 +243,8 @@ span.navbar-text {
 }
 .navbar-text button {
   font-weight: 700;
-  color: #fff;
-  border: 1px solid #fff;
+  color: #000000;
+  border: 1px solid #000000;
   padding: 18px 34px;
   font-size: 18px;
   margin-left: 18px;
@@ -274,7 +331,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-image: linear-gradient(210deg, #97dcd5, #2b625d, #0b1a72, #17083f);
   background-size: 600%;
   background-position: top right;
-  /*animation: banner-animation 100s infinite alternate;*/
+  animation: banner-animation 100s infinite alternate;
 }
 
 @keyframes banner-animation {
@@ -367,7 +424,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 0 0 50px 0;
   position: relative;
   color: #fff !important;
-
+  background-color: #d9d5ce;
+  height: 100vh;
 }
 .skill-bx {
   background: #151515;
@@ -401,7 +459,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: absolute;
   bottom: 0;
   width: 40%;
-  z-index: -4;
+  z-index: 10;
 }
 
 /************ Projects Css ************/
