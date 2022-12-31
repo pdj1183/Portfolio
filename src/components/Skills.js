@@ -38,25 +38,52 @@ export const Skills = () => {
                             </p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
-                                    <img src={''} alt=""/>
                                     <h5>
-                                        Web Development
+                                        C/C++
                                     </h5>
                                 </div>
                                 <div className="item">
-                                    <img src={''} alt="" />
                                     <h5>
-                                        Software Engineering
+                                        Java
                                     </h5>
                                 </div>
                                 <div className="item">
-                                    <img src={''} alt="" />
                                     <h5>
-                                        Cyber-Security
+                                        Javascript
                                     </h5>
                                 </div>
                                 <div className="item">
-                                    <img src={''} alt="" />
+                                    <h5>
+                                        React
+                                    </h5>
+                                </div>
+                                <div className="item">
+                                    <h5>
+                                        Node
+                                    </h5>
+                                </div>
+                                <div className="item">
+                                    <h5>
+                                        React
+                                    </h5>
+                                </div>
+                                <div className="item">
+                                    <h5>
+                                        GitHub
+                                    </h5>
+                                </div>
+                                <div className="item">
+                                    <h5>
+                                        Team-Driven {'\n'}
+                                        Development
+                                    </h5>
+                                </div>
+                                <div className="item">
+                                    <h5>
+                                        Test-Driven {'\n'} Development
+                                    </h5>
+                                </div>
+                                <div className="item">
                                     <h5>
                                         Scrum
                                     </h5>

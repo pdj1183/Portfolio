@@ -11,7 +11,7 @@ export const CoverScreen = () => {
                     <span></span>
                     <span></span>
                 </div>
-                <Canvas className="blob" camera={{ position: [0.0, 0.0, 5]}}>
+                <Canvas className="blob" camera={{ position: [0.0, 0.0, 5.5]}}>
                     <Blob/>
                 </Canvas>
         </section>

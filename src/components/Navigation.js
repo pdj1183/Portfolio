@@ -5,7 +5,7 @@ import {Button} from "react-bootstrap";
 import {useState} from "react";
 import logo from '../assets/img/Signature1.svg'
 import navIcon1 from '../assets/img/nav-icon1.svg'
-import navIcon2 from '../assets/img/nav-icon2.svg'
+import navIcon2 from '../assets/img/github.svg'
 import navIcon3 from '../assets/img/nav-icon3.svg'
 
 export  const Navigation = () =>{
@@ -19,7 +19,7 @@ export  const Navigation = () =>{
         <Navbar expand="lg" className={"scrolled"}>
             <Container>
                 <Navbar.Brand href="#home">
-                    <img src={logo} class="img-fluid" alt="Logo" />
+                    <img src={logo} alt="Logo" />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav">
                     <span className='navbar-toggler-icon'></span>
@@ -50,9 +50,9 @@ export  const Navigation = () =>{
                     </Nav>
                     <span className='navbar-text'>
                         <div className='social-icon'>
-                            <a href="Header#"><img src={navIcon1} alt="" /></a>
-                            <a href="Header#"><img src={navIcon2} alt="" /></a>
-                            <a href="Header#"><img src={navIcon3} alt="" /></a>
+                            <a href="#"><img src={navIcon1} alt="" /></a>
+                            <a href="#"><img src={navIcon2} alt="" /></a>
+                            <a href="#"><img src={navIcon3} alt="" /></a>
                         </div>
                         <Button className='vvd' onClick={() => console.log('connect')}>
                             Let's Connect
