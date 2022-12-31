@@ -2,6 +2,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import {Col, Container, Row} from "react-bootstrap";
 import colorSharp from "../assets/img/color-sharp.png"
+import {isMobile} from "react-device-detect";
 
 export const Skills = () => {
     const responsive = {
@@ -36,7 +37,7 @@ export const Skills = () => {
                             <p>
                                 adslfuahwdlsu lkjahsfkjdfhhas dhfhashjkd flhasjd flajhs dklfhakshdf ashd lhfa
                             </p>
-                            <Carousel responsive={responsive} infinite={true} className="skill-slider">
+                            <Carousel responsive={responsive} infinite={true} showDots={true} keyBoardControl={true} swipeable={true} removeArrowOnDeviceType={["tablet", "mobile"]} autoPlay={isMobile} className="skill-slider">
                                 <div className="item">
                                     <h5>
                                         C/C++
@@ -50,6 +51,17 @@ export const Skills = () => {
                                 <div className="item">
                                     <h5>
                                         Javascript
+                                    </h5>
+                                </div>
+                                <div className="item">
+                                    <h5>
+                                        Object-Oriented {'\n'}
+                                        Development
+                                    </h5>
+                                </div>
+                                <div className="item">
+                                    <h5>
+                                        Test-Driven {'\n'} Development
                                     </h5>
                                 </div>
                                 <div className="item">
@@ -76,11 +88,6 @@ export const Skills = () => {
                                     <h5>
                                         Team-Driven {'\n'}
                                         Development
-                                    </h5>
-                                </div>
-                                <div className="item">
-                                    <h5>
-                                        Test-Driven {'\n'} Development
                                     </h5>
                                 </div>
                                 <div className="item">
