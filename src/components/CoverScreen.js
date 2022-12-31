@@ -6,7 +6,7 @@ export const CoverScreen = () => {
     return(
         <section className="coverScreen" id="cover">
                 <img className="center-image" src={signature} alt="signature"/>
-                <div className="arrow">
+                <div className="arrow" >
                     <span></span>
                     <span></span>
                     <span></span>
