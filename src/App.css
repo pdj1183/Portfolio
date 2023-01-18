@@ -325,7 +325,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Banner Css ************/
 .banner {
-  font-family: Isoveka;
+  font-family: Isoveka, serif;
   margin-top: 0;
   padding: 260px 0 100px 0;
   color: #ffffff !important;
@@ -334,6 +334,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-size: 600% 600%;
   background-position: center;
   animation: banner-animation 100s infinite alternate;
+  z-index: 2;
 }
 
 @keyframes banner-animation {
@@ -372,7 +373,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: absolute;
 }
 .banner p {
-  margin-top:5vh;
+  margin-top:100px;
   color: #FFFFFF;
   font-size: 18px;
   letter-spacing: 0.8px;
@@ -457,15 +458,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: absolute;
   filter: hue-rotate(270deg);
   bottom: 0;
-  z-index: 4;
+  z-index: 1;
   width: 40%;
 }
 
 /************ Projects Css ************/
 .project {
   padding: 80px 0;
-  height: 100vh;
-  position: relative;
 }
 .project h2 {
   font-size: 45px;
@@ -489,7 +488,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   overflow: hidden;
 }
 .project .nav.nav-pills .nav-item {
-  width: 33.33333%;
+  width: 50%;
 }
 .project .nav.nav-pills .nav-link {
   background-color: transparent;
@@ -539,10 +538,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
+  z-index: 2;
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #97dcd5 , #2b625d, #0b1a72, #17083f 211%);
+  background: linear-gradient(45deg, #97dcd5, #2b625d 200%);
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -585,7 +585,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   bottom: 0;
   width: 35%;
   right: 0;
-  z-index: -4;
+  margin-top: 1700px;
 }
 
 /************ Projects Css ************/
@@ -662,8 +662,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Footer Css ************/
 .footer {
-  padding: 0 0 50px 0;
   background-image: url('./assets/img/footer-bg.png');
+  filter: hue-rotate(270deg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -729,12 +729,5 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 18px;
 }
 .footer img {
-  width: 26%;
-}
-.footer p {
-  font-weight: 400;
-  font-size: 14px;
-  color: #B8B8B8;
-  letter-spacing: 0.5px;
-  margin-top: 20px;
+  width: 40%;
 }
