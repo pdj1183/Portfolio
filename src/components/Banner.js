@@ -1,5 +1,4 @@
 import {Container, Col, Row} from "react-bootstrap";
-import {ArrowRightCircle} from "react-bootstrap-icons";
 import Typical from "react-typical"
 import portrait from '../assets/img/Snapchat-1319243128.jpg'
 
@@ -25,8 +24,14 @@ export const Banner = () =>{
                                 ]}
                                 />
                         </h2>
-                        <p>{'\n'}alsdflasdhufhasldhfjahsdhf; kasd;klfj;kasd;kfh   dsa;kfha.s dkhjfasd;f ;a;kj;l df;la sd;lhf; ;h;sdjhflkjahsdljfh lkashd fkjhasldkhfl akjsdlfjlkajhsdl fkhasldkfh</p>
-                        <button onClick={() => console.log('connect')}> Let's Connect <ArrowRightCircle size={25}/> </button>
+                        <p>{'\n'}
+                            As a current student at CSU I am very interested to learn about all of the corners of technology.
+                            I am a third year Computer Science undergrad with a concentration in Networking and Cyber-security and a minor in Mathematics.
+                            I love building new apps and have an eye for good looking user experiences.
+                            My most impactful class I have taken so far is my Introduction to Software Engineering course.
+                            It taught me important skills on how to work in a team using the SCRUM method and GitHub.
+                            We created a mobile trip itinerary web app based off of source code and implemented new features an abilities.
+                        </p>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={portrait} alt="portrait"/>
