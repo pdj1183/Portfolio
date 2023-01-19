@@ -3,6 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/Screenshot 2023-01-12 at 6.56.16 PM.png";
 import projImg2 from "../assets/img/20210222_224359.jpg";
 import projImg3 from "../assets/img/Screenshot 2023-01-12 at 7.06.49 PM.png";
+import projImg4 from "../assets/img/Screenshot 2023-01-19 at 4.13.33 PM.png"
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import TrackVisibility from 'react-on-screen';
 import virtualization from "../assets/img/D3 Final.pdf"
@@ -30,7 +31,12 @@ export const Projects = () => {
                          "",
             imgUrl: projImg3,
             page: virtualization
-
+        },
+        {
+            title: "Personal Portfolio Page",
+            description: "A Personal Portfolio I made using ReactJS, NPM, and React Three Fiber for the cover page." +
+                         "I am hosting the page using GitHub pages",
+            imgUrl: projImg4,
         },
     ];
 
