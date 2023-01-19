@@ -19,18 +19,21 @@ export const Banner = () =>{
                                     1000,
                                     ' an Adventurer',
                                     1000,
+                                    ' a coder',
+                                    1000,
                                     ' Motivated to Learn',
                                     1000
                                 ]}
                                 />
                         </h2>
                         <p>{'\n'}
-                            As a current student at CSU I am very interested to learn about all of the corners of technology.
-                            I am a third year Computer Science undergrad with a concentration in Networking and Cyber-security and a minor in Mathematics.
-                            I love building new apps and have an eye for good looking user experiences.
-                            My most impactful class I have taken so far is my Introduction to Software Engineering course.
-                            It taught me important skills on how to work in a team using the SCRUM method and GitHub.
-                            We created a mobile trip itinerary web app based off of source code and implemented new features an abilities.
+                            I am a third year Computer Science undergraduate with a concentration in Networking and Cyber-security as well as a minor in Mathematics.
+                            I'm interested to learn about all corners of technology.
+                            I love building new apps and have an eye for appealing user experiences.
+                            The most impactful class I have taken is Introduction to Software Engineering cs314.
+                            It taught me important skills about working as part of a 5 person team on a large continuous project.
+                            We created a mobile trip itinerary that was based of off a given a base application.
+                            In the first week we had to analyze the code and begin adding our own improvements.
                         </p>
                     </Col>
                     <Col xs={12} md={6} xl={5}>

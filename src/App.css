@@ -138,7 +138,7 @@ p.danger {
   position: relative;
   top: 50%;
   left: 50%;
-  transform:translate(0, 20vh);
+  transform:translate(0, 70vh);
   z-index: 2;
 }
 .coverScreen span{
@@ -471,13 +471,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
 }
 .project p {
-  color: #4d4c4c;
-  font-size: 18px;
-  letter-spacing: 0.8px;
-  line-height: 1.5em;
-  margin: 14px auto 30px auto;
-  text-align: center;
-  width: 56%;
+  color: #000000;
+  font-size: 45px !important;
 }
 .project .nav.nav-pills {
   width: 72%;
@@ -541,7 +536,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(45deg, #97dcd5, #2b625d 200%);
+  background: linear-gradient(45deg, #9ed2ca, #71afa9 200%);
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -713,7 +708,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .new-email-bx input {
   width: 100%;
-  color: #121212;
+  color: #dca424;
   font-weight: 500;
   background: transparent;
   border: 0;
