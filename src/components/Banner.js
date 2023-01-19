@@ -19,7 +19,7 @@ export const Banner = () =>{
                                     1000,
                                     ' an Adventurer',
                                     1000,
-                                    ' a coder',
+                                    ' a Coder',
                                     1000,
                                     ' Motivated to Learn',
                                     1000
