@@ -9,7 +9,7 @@ import logo from '../assets/img/Signature1.svg'
 import navIcon1 from '../assets/img/nav-icon1.svg'
 import navIcon2 from '../assets/img/github.svg'
 import navIcon3 from '../assets/img/nav-icon3.svg'
-
+import resume from '../assets/img/Phillip Johnson\'s Resume.pdf'
 export  const Navigation = () =>{
     const [activeLink, setActiveLink] = useState('home');
 
@@ -49,6 +49,12 @@ export  const Navigation = () =>{
                                 onClick={() => onUpdateActiveLink('projects')}
                             >
                                 Projects
+                            </Nav.Link>
+                            <Nav.Link
+                                className='navbar-link'
+                                href={resume}
+                            >
+                                Résumé
                             </Nav.Link>
                         </Nav>
                         <span className='navbar-text'>

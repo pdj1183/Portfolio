@@ -5,24 +5,32 @@ import projImg2 from "../assets/img/20210222_224359.jpg";
 import projImg3 from "../assets/img/Screenshot 2023-01-12 at 7.06.49 PM.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import TrackVisibility from 'react-on-screen';
+import virtualization from "../assets/img/D3 Final.pdf"
 
 export const Projects = () => {
 
     const projects = [
         {
             title: "Mobile Trip Itinerary ",
-            description: "Team project using SCRUM and github.",
+            description: "Team project using SCRUM and github." +
+                         "We started with a base app and added extra functionality to make the app easier to use." +
+                         " I created some app modals for pages to optimize the trip and search a database to find airports by name." +
+                         " I use mySQL to query the database that was hosted on our school network.",
             imgUrl: projImg1,
         },
         {
             title: "Sound Reactive Light Strip",
-            description: "I created a sound responsive LED light strip using an arduino as the controller.",
+            description: "I created a sound responsive LED light strip using an ESP32 arduino as the controller." +
+                         " I used fastLED to control the LED strip and arduinoFFT to analyze the sound from a microphone.",
             imgUrl: projImg2,
         },
         {
             title: "IEEE Research Paper",
-            description: "Group research paper on the benefits of virtualization in the case of natural disaster.",
+            description: "Group research paper on the benefits of virtualization in the case of natural disaster." +
+                         "",
             imgUrl: projImg3,
+            page: virtualization
+
         },
     ];
 
@@ -35,9 +43,8 @@ export const Projects = () => {
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                                     <h2 className="text-center">Projects</h2>
-                                    <p>
-                                        I have completed a few large scale projects in my classes throughout my life as a student as well as a few personal projects.
-                                    </p>
+                                    <p  className="text-center">
+                                        Throughout the courses I have taken as a student, I have completed a couple major assignments along with other personal achievements using technologies I was curious about.                                    </p>
                                     <Row>
                                         {
                                             projects.map((project, index) => {

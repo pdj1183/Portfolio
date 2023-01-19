@@ -6,11 +6,13 @@ export const CoverScreen = () => {
     return(
         <section className="coverScreen" id="cover">
                 <img className="center-image" src={signature} alt="signature"/>
-                <div className="arrow" >
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
+                <a href="#home">
+                    <div className="arrow" >
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </a>
                 <Canvas className="blob" camera={{ position: [0.0, 0.0, 5.5]}}>
                     <Blob/>
                 </Canvas>

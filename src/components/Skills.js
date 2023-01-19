@@ -34,7 +34,7 @@ export const Skills = () => {
                             <h2>
                                 My Skills
                             </h2>
-                            <Carousel responsive={responsive} infinite={true} showDots={true} keyBoardControl={true} swipeable={true} removeArrowOnDeviceType={["tablet", "mobile"]} autoPlay={isMobile} className="skill-slider">
+                            <Carousel focusOnSelect={true} responsive={responsive} infinite={true} showDots={true} keyBoardControl={true} swipeable={true} removeArrowOnDeviceType={["tablet", "mobile"]} autoPlay={isMobile} className="skill-slider">
                                 <div className="item">
                                     <h5>
                                         C/C++
