@@ -5,7 +5,6 @@ import {
     BrowserRouter as Router
 } from "react-router-dom";
 import {useState} from "react";
-import logo from '../assets/img/Signature1.svg'
 import navIcon1 from '../assets/img/nav-icon1.svg'
 import navIcon2 from '../assets/img/github.svg'
 import navIcon3 from '../assets/img/nav-icon3.svg'
@@ -21,9 +20,6 @@ export  const Navigation = () =>{
         <Router>
             <Navbar expand="lg" className={"scrolled"}>
                 <Container>
-                    <Navbar.Brand href="#home">
-                        <img src={logo} alt="Logo" />
-                    </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav">
                         <span className='navbar-toggler-icon'></span>
                     </Navbar.Toggle>

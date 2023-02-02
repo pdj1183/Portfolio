@@ -195,7 +195,7 @@ nav.navbar a.navbar-brand {
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
   letter-spacing: 0.8px;
-  padding: 0 25px;
+  padding-right: 50px;
   font-size: 18px;
   opacity: 0.75;
 }

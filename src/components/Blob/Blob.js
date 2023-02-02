@@ -22,8 +22,8 @@ export const Blob = () => {
 
             mesh.current.material.uniforms.u_intensity.value = MathUtils.lerp(
                 mesh.current.material.uniforms.u_intensity.value,
-                hover.current ? 1 : 0.15,
-                0.02
+                hover.current ? 2.2 : .7,
+                0.1
             );
         }
     });
@@ -35,7 +35,7 @@ export const Blob = () => {
             onPointerOver={() => (hover.current = true)}
             onPointerOut={() => (hover.current = false)}
         >
-            <icosahedronGeometry args={[2, 50]} />
+            <circleGeometry args={[2, 500]} />
             <shaderMaterial
                 vertexShader={vertexShader}
                 fragmentShader={fragmentShader}
