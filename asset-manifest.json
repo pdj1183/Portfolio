@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.59ca27b0.css",
-    "main.js": "/Portfolio/static/js/main.1a5f0c3d.js",
+    "main.css": "/Portfolio/static/css/main.82ef054d.css",
+    "main.js": "/Portfolio/static/js/main.a8e51038.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/iosevka-ss04-thin.ttc": "/Portfolio/static/media/iosevka-ss04-thin.08495cc1d7de683034db.ttc",
     "static/media/iosevka-ss04-regular.ttc": "/Portfolio/static/media/iosevka-ss04-regular.78e6007a58cbc1bc270e.ttc",
@@ -31,12 +31,12 @@
     "index.html": "/Portfolio/index.html",
     "static/media/github.svg": "/Portfolio/static/media/github.7fb9005fbc45d2da681d26afb2694aa4.svg",
     "static/media/nav-icon1.svg": "/Portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.59ca27b0.css.map": "/Portfolio/static/css/main.59ca27b0.css.map",
-    "main.1a5f0c3d.js.map": "/Portfolio/static/js/main.1a5f0c3d.js.map",
+    "main.82ef054d.css.map": "/Portfolio/static/css/main.82ef054d.css.map",
+    "main.a8e51038.js.map": "/Portfolio/static/js/main.a8e51038.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.59ca27b0.css",
-    "static/js/main.1a5f0c3d.js"
+    "static/css/main.82ef054d.css",
+    "static/js/main.a8e51038.js"
   ]
 }
