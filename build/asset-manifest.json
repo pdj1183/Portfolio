@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.82ef054d.css",
-    "main.js": "/Portfolio/static/js/main.a8e51038.js",
+    "main.js": "/Portfolio/static/js/main.d639bc3f.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/iosevka-ss04-thin.ttc": "/Portfolio/static/media/iosevka-ss04-thin.08495cc1d7de683034db.ttc",
     "static/media/iosevka-ss04-regular.ttc": "/Portfolio/static/media/iosevka-ss04-regular.78e6007a58cbc1bc270e.ttc",
@@ -25,18 +25,17 @@
     "static/media/revicons.eot": "/Portfolio/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/Portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/Signature.svg": "/Portfolio/static/media/Signature.7aed6825fe33d94b31da6ee6b13b21a8.svg",
-    "static/media/Signature1.svg": "/Portfolio/static/media/Signature1.7aed6825fe33d94b31da6ee6b13b21a8.svg",
     "static/media/revicons.woff": "/Portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/nav-icon3.svg": "/Portfolio/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
     "index.html": "/Portfolio/index.html",
     "static/media/github.svg": "/Portfolio/static/media/github.7fb9005fbc45d2da681d26afb2694aa4.svg",
     "static/media/nav-icon1.svg": "/Portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "main.82ef054d.css.map": "/Portfolio/static/css/main.82ef054d.css.map",
-    "main.a8e51038.js.map": "/Portfolio/static/js/main.a8e51038.js.map",
+    "main.d639bc3f.js.map": "/Portfolio/static/js/main.d639bc3f.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.82ef054d.css",
-    "static/js/main.a8e51038.js"
+    "static/js/main.d639bc3f.js"
   ]
 }
