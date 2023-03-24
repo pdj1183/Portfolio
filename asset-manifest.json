@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/Personal-Portfolio/static/css/main.8952d7c0.css",
-    "main.js": "/Personal-Portfolio/static/js/main.ce1e4b36.js",
+    "main.js": "/Personal-Portfolio/static/js/main.b3b55428.js",
     "static/js/787.1ed0c42c.chunk.js": "/Personal-Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/iosevka-ss04-thin.ttc": "/Personal-Portfolio/static/media/iosevka-ss04-thin.08495cc1d7de683034db.ttc",
     "static/media/iosevka-ss04-regular.ttc": "/Personal-Portfolio/static/media/iosevka-ss04-regular.78e6007a58cbc1bc270e.ttc",
     "static/media/iosevka-ss04-bold.ttc": "/Personal-Portfolio/static/media/iosevka-ss04-bold.d25366e30cf85a68dad1.ttc",
     "static/media/iosevka-ss04-medium.ttc": "/Personal-Portfolio/static/media/iosevka-ss04-medium.bad06dd2af1678125015.ttc",
+    "static/media/CleanShot 2023-03-13 at 21.55.53@2x.png": "/Personal-Portfolio/static/media/CleanShot 2023-03-13 at 21.55.53@2x.cc97ec9fa87db756d293.png",
     "static/media/20210222_224359.jpg": "/Personal-Portfolio/static/media/20210222_224359.a15a24abba3b7121e091.jpg",
     "static/media/Screenshot 2023-01-12 at 7.06.49 PM.png": "/Personal-Portfolio/static/media/Screenshot 2023-01-12 at 7.06.49 PM.65f535c48cac7f2509a6.png",
     "static/media/color-sharp.png": "/Personal-Portfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
@@ -31,11 +32,11 @@
     "static/media/github.svg": "/Personal-Portfolio/static/media/github.7fb9005fbc45d2da681d26afb2694aa4.svg",
     "static/media/nav-icon1.svg": "/Personal-Portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "main.8952d7c0.css.map": "/Personal-Portfolio/static/css/main.8952d7c0.css.map",
-    "main.ce1e4b36.js.map": "/Personal-Portfolio/static/js/main.ce1e4b36.js.map",
+    "main.b3b55428.js.map": "/Personal-Portfolio/static/js/main.b3b55428.js.map",
     "787.1ed0c42c.chunk.js.map": "/Personal-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8952d7c0.css",
-    "static/js/main.ce1e4b36.js"
+    "static/js/main.b3b55428.js"
   ]
 }
