@@ -1,19 +1,19 @@
-import {Canvas} from "@react-three/fiber";
-import {Blob} from "./Blob/Blob";
-import signature from "../assets/img/Signature.svg"
+import { Canvas } from "@react-three/fiber";
+import { Blob } from "./Blob/Blob";
+import signature from "../assets/img/Signature.svg";
 
 export const CoverScreen = () => {
-    return(
+    return (
         <section className="coverScreen" id="cover">
-                <img className="center-image" src={signature} alt="signature"/>
-                <div className="arrow" >
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-                <Canvas className="blob" camera={{ position: [0.0, 0.0, 5.5]}}>
-                    <Blob/>
-                </Canvas>
+            <img className="center-image" src={signature} alt="signature" />
+            <div className="arrow">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <Canvas className="blob" camera={{ position: [0.0, 0.0, 5.5] }}>
+                <Blob />
+            </Canvas>
         </section>
-    )
-}
+    );
+};
