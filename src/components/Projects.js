@@ -1,11 +1,11 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/Screenshot 2023-01-12 at 6.56.16 PM.png";
 import projImg2 from "../assets/img/20210222_224359.jpg";
 import projImg3 from "../assets/img/Screenshot 2023-01-12 at 7.06.49 PM.png";
 import projImg4 from "../assets/img/Screenshot 2023-01-19 at 4.13.33 PM.png";
 import projImg5 from "../assets/img/CleanShot 2023-03-13 at 21.55.53@2x.png";
 import projImg6 from "../assets/img/Screenshot 11052023HuE0jbA6@2x.png";
+import projImg7 from "../assets/img/project-img7.png";
 // import colorSharp2 from "../assets/img/color-sharp2.png";
 import TrackVisibility from "react-on-screen";
 import virtualization from "../assets/img/D3 Final.pdf";
@@ -13,12 +13,6 @@ import HCI from "../assets/img/Final Project.pdf";
 
 export const Projects = () => {
     const projects = [
-        {
-            title: "Mobile Trip Itinerary ",
-            description:
-                "Team project using SCRUM and github. We started with a base app and added extra functionality to make the app easier to use. I created some app modals for pages to optimize the trip and search a database to find airports by name. I use mySQL to query the database that was hosted on our school network.",
-            imgUrl: projImg1,
-        },
         {
             title: "Sound Reactive Light Strip",
             description:
@@ -52,6 +46,13 @@ export const Projects = () => {
             imgUrl: projImg6,
             page: HCI,
         },
+        {
+            title: "Records & Recommendations",
+            description:
+                "Swift iOS application that recommends users albums based on their vinyl collection. The app uses NSPersistentCloudKitContainer with the goal of providing applications accross Apple's ecosystem.",
+            imgUrl: projImg7,
+            page: "https://github.com/pdj1183/Records-Recommendations/wiki",
+        }
     ];
 
     return (
