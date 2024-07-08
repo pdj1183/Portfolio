@@ -1,0 +1,90 @@
+.banner {
+    font-family: Isoveka, serif;
+    margin-top: 0;
+    padding: 260px 0 100px 0;
+    color: #ffffff !important;
+    background-attachment: fixed;
+    background-image: radial-gradient(#97dcd5, #2b625d, #0b1a72, #17083f);
+    background-size: 600% 600%;
+    background-position: center;
+    animation: banner-animation 100s infinite alternate;
+    z-index: 2;
+}
+
+@keyframes banner-animation {
+    0% {
+        background-position: top right;
+    }
+    25% {
+        background-position: bottom left;
+    }
+    50% {
+        background-position: top center;
+    }
+    75% {
+        background-position: center;
+    }
+    100% {
+        background-position: top right;
+    }
+}
+.banner b {
+    font-weight: 500;
+}
+.banner h1 {
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin-top: -15vh;
+    margin-bottom: 20px;
+    display: block;
+    white-space: pre-wrap;
+}
+.banner h2 {
+    font-size: 40px;
+    font-weight: 500;
+    position: absolute;
+}
+.banner .summary {
+    margin-top: 100px;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    position: relative;
+    white-space: pre-wrap;
+}
+.banner img {
+    width: 40vw;
+    border-radius: 64px;
+}
+.banner button {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 120px;
+    letter-spacing: 0.8px;
+    display: flex;
+    align-items: center;
+}
+.banner button svg {
+    font-size: 25px;
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+    line-height: 1;
+}
+.banner button:hover svg {
+    margin-left: 25px;
+}
+.banner h3 {
+    line-height: 150px;
+    font-size: 55px;
+    font-family: nk57;
+    padding-left: 30px;
+}
+.txt-rotate > .wrap {
+    border-right: 0.08em solid #666;
+}
+

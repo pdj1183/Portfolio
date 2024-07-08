@@ -12,6 +12,7 @@
     "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.10.3",
     "bourbon": "^7.2.0",
+    "caniuse-lite": "^1.0.30001591",
     "carousel": "0.0.3",
     "cors": "^2.8.5",
     "express": "^4.18.2",

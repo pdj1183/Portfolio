@@ -1,8 +1,6 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { Col, Container, Row } from "react-bootstrap";
-// import colorSharp from "../assets/img/color-sharp.png";
-import { isMobile } from "react-device-detect";
 
 export const Skills = () => {
     const responsive = {
@@ -32,6 +30,7 @@ export const Skills = () => {
                     <Col>
                         <div className="skill-bx">
                             <h2>My Skills</h2>
+                            <p> {" "}</p>
                             <Carousel
                                 focusOnSelect={true}
                                 responsive={responsive}
@@ -40,7 +39,7 @@ export const Skills = () => {
                                 keyBoardControl={true}
                                 swipeable={true}
                                 removeArrowOnDeviceType={["tablet", "mobile"]}
-                                autoPlay={isMobile}
+                                autoPlay={true}
                                 className="skill-slider">
                                 <div className="item">
                                     <h5>C/C++</h5>
@@ -51,6 +50,12 @@ export const Skills = () => {
                                 <div className="item">
                                     <h5>Javascript</h5>
                                 </div>
+                                <div className="item">
+                                    <h5>Python</h5>
+                                </div>
+                               <div className="item">
+                                    <h5> Swift </h5>
+                                </div> 
                                 <div className="item">
                                     <h5>
                                         Object-Oriented {"\n"}
@@ -65,9 +70,6 @@ export const Skills = () => {
                                 </div>
                                 <div className="item">
                                     <h5>Node</h5>
-                                </div>
-                                <div className="item">
-                                    <h5>React</h5>
                                 </div>
                                 <div className="item">
                                     <h5>GitHub</h5>
@@ -86,7 +88,6 @@ export const Skills = () => {
                     </Col>
                 </Row>
             </Container>
-            {/* <img className="background-image-left" src={colorSharp} alt="bg-gradient"/> */}
         </section>
     );
 };

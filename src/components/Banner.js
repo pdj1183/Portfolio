@@ -7,7 +7,7 @@ export const Banner = () => {
         <section className="banner" id="home">
             <Container>
                 <Row className="align-items-center">
-                    <Col xs={12} md={6} xl={7}>
+                    <Col xs={12} md={6} xl={6}>
                         <h1>{"Hello There!"}</h1>
                         <h2>
                             {" "}
@@ -16,7 +16,7 @@ export const Banner = () => {
                                 loop={Infinity}
                                 wrapper="b"
                                 steps={[
-                                    " a CSU Student",
+                                    " a CSU Graduate",
                                     1000,
                                     " a Hardware Hacker",
                                     1000,
@@ -28,11 +28,11 @@ export const Banner = () => {
                             />
                         </h2>
                         <p className="summary">
-                            {"\n"}I am a motivated fourth-year Computer Science
+                            {"\n"}I am a recent Computer Science
                             undergraduate with a concentration in Cybersecurity
                             and Networking, along with a minor in Mathematics.
-                            As a dedicated research assistant, I have had the
-                            opportunity to delve into the fascinating realms of
+                            As a dedicated research assistant, I have 
+                            delved into the fascinating realms of
                             hardware reverse engineering. Working under the
                             guidance of esteemed professionals, I've conducted
                             in-depth research and developed experience in
@@ -53,7 +53,7 @@ export const Banner = () => {
                             accomplishments.
                         </p>
                     </Col>
-                    <Col xs={12} md={6} xl={5}>
+                    <Col xs={12} md={6} xl={6}>
                         <img src={portrait} alt="portrait" />
                     </Col>
                 </Row>

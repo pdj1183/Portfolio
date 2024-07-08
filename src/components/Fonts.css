@@ -1,0 +1,47 @@
+/************ Custom Font ************/
+@font-face {
+    font-family: Centra;
+    src: url("../assets/font/CentraNo2-Bold.ttf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: Centra;
+    src: url("../assets/font/CentraNo2-Medium.ttf");
+    font-weight: 500;
+}
+@font-face {
+    font-family: Centra;
+    src: url("../assets/font/CentraNo2-Book.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Isoveka;
+    src: url("../assets/font/iosevka-ss04-bold.ttc");
+    font-weight: 700;
+}
+@font-face {
+    font-family: Isoveka;
+    src: url("../assets/font/iosevka-ss04-medium.ttc");
+    font-weight: 600;
+}
+@font-face {
+    font-family: Isoveka;
+    src: url("../assets/font/iosevka-ss04-thin.ttc");
+    font-weight: 500;
+}
+@font-face {
+    font-family: Isoveka;
+    src: url("../assets/font/iosevka-ss04-regular.ttc");
+    font-weight: 400;
+}
+@font-face {
+    font-family: Signature;
+    src: url("../assets/font/TheQueenthineDemo.ttf");
+    font-weight: 400;
+}
+@font-face {
+    font-family: nk57;
+    src: url("../assets/font/nk57-monospace-sc-sb.ttf");
+    font-weight: 400;
+}
