@@ -35,7 +35,7 @@ export const Projects = () => {
         title: "Exploring a Low-Cost Hardware Reverse Engineering Approach: A Use Case Experiment",
         description: "IFIPSEC",
         imgUrl: ifipScreenshot,
-        page: ifip
+        page: "https://link.springer.com/chapter/10.1007/978-3-031-65175-5_31"
     }
 
     return (
